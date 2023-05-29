@@ -1,11 +1,11 @@
 const express = require('express');
-const uploadHandler = require('./uploadHandler');
+const SoundUpload = require('./SoundUpload');
 
 // Create a new router
 const router = express.Router();
 
 // Use the router to handle the upload route
-router.post('/upload', uploadHandler);
+router.post('/upload', SoundUpload);
 
 // Create the main function
 const main = () => {

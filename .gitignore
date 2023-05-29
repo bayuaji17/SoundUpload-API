@@ -1,4 +1,4 @@
 node_modules
-image
-uploads
+Audio
 package-lock.json
+Secret-key.json

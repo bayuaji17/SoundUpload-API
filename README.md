@@ -1,6 +1,7 @@
 # Node.js POST to Cloud Storage
 
-1. Prepare a service account key
-2. npm install
-3. node index.js
-4. To test the API, do `curl -X POST -F "file=@image\_a99f538d-3808-4009-8e8c-fa144bba2c1b.jpg" http://localhost:5000/upload`
+1. Prepare a service account key cloud storage
+2. npm install express
+3. npm init
+4. node index.js
+5. To test the API, do `curl -X POST -F "file=@audio.wav" http://localhost:5000/upload" http://localhost:5000/upload`

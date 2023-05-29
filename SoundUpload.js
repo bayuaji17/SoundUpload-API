@@ -10,8 +10,8 @@ console.log(processFile);
 let processFileMiddleware = util.promisify(processFile);
 
 // Instantiate a storage client with credentials
-const storage = new Storage({ keyFilename: "gcskey.json" });
-const bucket = storage.bucket("somethingaldieric");
+const storage = new Storage({ keyFilename: "Secret-key.json" });
+const bucket = storage.bucket("input-voice-bucket");
 
 // Create a new handler for the upload route
 const uploadHandler = async (req, res) => {
