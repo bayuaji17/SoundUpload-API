@@ -1,7 +1,7 @@
 {
   "name": "nodejscloudstorage",
   "version": "1.0.0",
-  "description": "1. Prepare a service account key\r 2. npm install\r 3. node index.js\r 4. To test the API, do `curl -X POST -F \"file=@image\\_a99f538d-3808-4009-8e8c-fa144bba2c1b.jpg\" http://localhost:5000/upload`",
+  "description": "1. Prepare a service account key\r 2. npm install\r 3. node index.js\r 4. To test the API, do curl -X POST -F "file=@audio.wav" http://localhost:5000/upload" http://localhost:5000/upload``",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
